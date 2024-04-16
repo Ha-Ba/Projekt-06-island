@@ -19,6 +19,7 @@ body {
     color: black;
 }
 
+
 /* HLAVICKA */
 
 .titulek {
@@ -49,9 +50,24 @@ hr {
     opacity: 100%;
     text-align: center;
 }
+/*===================================================*/
+
+
+/* .text,
+.uvod h2,
+.proc h2,
+.musite_videt h2 {padding: 5px 20px;} */
+.hlavicka,
 .uvod,
 .proc,
-.musite_videt {color: black}
+.musite_videt,
+.paticka,
+.fotogalerie_cela {
+    padding: 5px 20px;
+}
+
+
+
 
 /* MENU */
 .menu {
@@ -61,8 +77,6 @@ hr {
 
 .li {
     font-weight: bold;
-
- 
 }
 
 ul {
@@ -86,13 +100,11 @@ img {
     width: 100vw;
     flex-wrap: wrap;
     margin: 0;
-    
 }
 .foto {
     flex-wrap: wrap;
     object-fit: cover;
 }
-
 .popisek {
     text-align: center;
     font-weight: normal;
@@ -109,10 +121,8 @@ a {
     color: darkgray;
 }
 .paticka {
-    /* margin: 0; */
     background: linear-gradient(to top, rgb(211, 211, 211, 0), rgb(211, 211, 211, 1));
-    padding: 5vw 4vw 1vw 4vw ;
-    
+    /* padding: 5vw 4vw 1vw 4vw ;  */
 }
 
 /* OBSAH */
