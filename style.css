@@ -70,9 +70,10 @@ ul {
 .menu a {
     color: darkgray;
     display: block;
-    margin: 0 50px;
+    margin: 10px 20px;
     text-decoration: none;
-    border-bottom: 1px solid rgba(211, 211, 211, 0.308);
+    border-bottom: 1px solid rgba(211, 211, 211, 0.37);
+    /* padding: 0px 20px; */
 }
 
 img {
