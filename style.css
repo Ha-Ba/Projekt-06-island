@@ -15,20 +15,105 @@ body {
     font-family: 'Merriweather', serif;
     font-size: 16px;
     line-height: 1.6;
+    max-width: 100vw;
+    color: black;
 }
-
 
 /* HLAVICKA */
 
 .titulek {
     font-family: 'Raleway', serif;
 }
+.hlavicka {
+    background-image: url(images/island-hlavicka.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    color: white;
+    text-align: center;
+    padding: 1vw;
+}
+.perex {
+    color: white;
+    text-align: center;
+}
 
+hr {
+    color:white;
+    width:15vw;
+    opacity: 1;
+}
+
+.autor {
+    opacity: 100%;
+    text-align: center;
+}
+.uvod,
+.proc,
+.musite_videt {color: black}
 
 /* MENU */
+.menu {
+    text-align: center;
+    text-transform: uppercase;
+}
 
+.li {
+    font-weight: bold;
 
+ 
+}
 
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.menu a {
+    color: darkgray;
+    display: block;
+    margin: 0 50px;
+    text-decoration: none;
+}
+
+img {
+    display: flex;
+    width: 100vw;
+}
+.galerie {
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
+    margin: 0;
+    
+}
+.foto {
+    flex-wrap: wrap;
+    object-fit: cover;
+}
+
+.popisek {
+    text-align: center;
+    font-weight: normal;
+    color: darkgray;
+}
+.popisek-copy {
+    font-weight: normal;
+}
+.popisek a {
+    color: darkgray;
+}
+
+a {
+    color: darkgray;
+}
+.paticka {
+    /* margin: 0; */
+    background: linear-gradient(to top, rgb(211, 211, 211, 0), rgb(211, 211, 211, 1));
+    padding: 5vw 4vw 1vw 4vw ;
+    
+}
 
 /* OBSAH */
 
