@@ -33,7 +33,7 @@ body {
     margin: 0;
     color: white;
     text-align: center;
-    padding: 1vw;
+    padding: 20px;
 }
 .perex {
     color: white;
@@ -51,23 +51,6 @@ hr {
     text-align: center;
 }
 /*===================================================*/
-
-
-/* .text,
-.uvod h2,
-.proc h2,
-.musite_videt h2 {padding: 5px 20px;} */
-.hlavicka,
-.uvod,
-.proc,
-.musite_videt,
-.paticka,
-.fotogalerie_cela {
-    padding: 5px 20px;
-}
-
-
-
 
 /* MENU */
 .menu {
@@ -122,13 +105,13 @@ a {
 }
 .paticka {
     background: linear-gradient(to top, rgb(211, 211, 211, 0), rgb(211, 211, 211, 1));
-    /* padding: 5vw 4vw 1vw 4vw ;  */
 }
 
 /* OBSAH */
 
 
-
+.text {text-align: left;
+padding: 5px 20px;}
 
 /* FOTOGALERIE */
 
