@@ -16,7 +16,10 @@ body {
     line-height: 1.6;
     color: black;
 }
-
+div {margin: 0;
+padding: 0;}
+img {margin: 0;
+padding: 0;}
 /* HLAVICKA */
 
 .titulek {font-family: 'Raleway', serif;}
@@ -78,23 +81,26 @@ ul {
     position: relative;
     left: -20px;
 }
+/*=============================================================*/
 .obrazekvtextu img {
-    display: flex;
+    display: block;
     width: 100vw;}
 
-
-
-
-.foto {
-    display: block;
-    width: 100%;
+/* .foto { */
+    /* display: block; */
+    /* width: 100%; */
     /* flex-wrap: wrap; */
-    /*object-fit: cover;*/}
+    /*object-fit: cover;} */
 
 .popisek {
-    text-align: center;
     font-weight: normal;
-    color: darkgray;}
+    color: darkgray;
+    text-align: center;
+    padding: 0;}
+
+.popisek {
+    margin: 0;
+    padding: 0;}
 
 .popisek-copy {
     font-weight: normal;}
@@ -108,11 +114,21 @@ a {color: darkgray;}
 padding: 5px 20px;}
 
 /* FOTOGALERIE */
-
+.galeriepopis {
+   padding: 0.5em;
+}
+.galerieimg {
+    margin: 0;
+}
 /* PATICKA */
 .paticka {
     background: linear-gradient(to top, rgb(211, 211, 211, 0), rgb(211, 211, 211, 1));
 }
+
+
+/* =========================== Responzivita: =================================== */
+
+
 /* ============== Responzivita: ================= */
 
 /* ============== TABLET ======================= */
@@ -156,7 +172,7 @@ padding: 5px 20px;}
             border: 1px solid rgba(211, 211, 211, 0.37);
             border-left: none;
             border-right: none;}
-    }
+    
     
     .popisek, .popisek a {
         color: white;
@@ -186,8 +202,4 @@ padding: 5px 20px;}
 
 .galeriepopis {
     display: none;}
-
-/* ============== DESKTOP ====================== */
-@media (min-width:1001px) {
-
 }
