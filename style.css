@@ -132,11 +132,11 @@ flex-direction: column;}
 /*====================== PATICKA ======================*/
 .paticka {
     background: linear-gradient(to top, rgb(211, 211, 211, 0), rgb(211, 211, 211, 1));
+    padding-top: 20px;
 }
 .paticka p {
     margin-top: 0;
 }
-
 
 /* =========================== Responzivita: =================================== */
 
@@ -235,8 +235,20 @@ flex-direction: column;}
         height: auto;
         
     }
-    
+    /* ==========zarovnávání textů v sekcích (níže) ================  */
+nav a {text-align: left;}
+
+.vpravo {
+    text-align: left;
+    padding-left: 25vw;}
+
+.vlevo {
+    text-align: left;
+    padding-right: 25vw;
 }
 
 
 
+
+
+}
