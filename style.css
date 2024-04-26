@@ -21,10 +21,6 @@ div {
     margin: 0;
     padding: 0;}
 
-/* img {
-    margin: 0;
-    padding: 0;
-display: flex;} */
 
 p,h1,h2 {padding: 0 20px;}
 /* HLAVICKA */
@@ -247,8 +243,20 @@ nav a {text-align: left;}
     padding-right: 25vw;
 }
 
+nav {float: left;
+clear: both;}
 
+.hlavicka {padding-bottom: 10rem;}
+main {width: 80vw;
+    margin: -10rem auto;
+    padding-top: 2rem;
+    box-shadow: 0 20px 10px 10px rgba(128, 128, 128, 0.486);
+    background-color: white;
+}
+.obrazekvtextu {
+    width: 80vw;}
 
-
-
+.obrazekvtextu img {
+    width: 80vw;
+}
 }
