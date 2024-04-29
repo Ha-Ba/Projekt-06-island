@@ -83,7 +83,6 @@ ul {
     opacity: 0.8;
     height: 0.3vh;
     width: 30vw;
-    text-align: left;
     padding-left: 0;
     margin-bottom: 2vh;
     position: relative;
@@ -105,9 +104,7 @@ ul {
 a {color: darkgray;}
 
 /*====================== OBSAH ======================*/
-.text {
-    text-align: left;
-}
+
 /* ======================FOTOGALERIE ======================*/
 .galeriepopis {
    padding: 0 0 5px 0;
@@ -232,15 +229,14 @@ flex-direction: column;}
         height: auto;}
 
 /* ==========zarovnávání textů v sekcích (níže) ================  */
-    nav a {text-align: left;
+    nav a {
+        text-align: left;
         padding-right: 50px;}
 
     .vpravo {
-        text-align: left;
         padding-left: 25vw;}
 
     .vlevo {
-        text-align: left;
         padding-right: 25vw;}
 
     nav {float: left;
